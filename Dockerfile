@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install --yes nginx
 
 # Copy over files
 WORKDIR /srv
-ADD *.html .
+ADD srv .
 ADD nginx.conf /etc/nginx/sites-enabled/default
 
 ARG BUILD_ID

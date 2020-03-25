@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "http-server --port ${PORT:-8080} ."
+    "start": "http-server --port ${PORT:-8080} srv/"
   },
   "devDependencies": {
     "http-server": "0.12.1"
