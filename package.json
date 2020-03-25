@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "http-server --port ${PORT:-8080} ."
+  },
+  "devDependencies": {
+    "http-server": "0.12.1"
+  }
+}
