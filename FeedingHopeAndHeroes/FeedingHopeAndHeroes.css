@@ -1,0 +1,262 @@
+p {
+    font-family: verdana;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-section {
+    position: relative;
+    width: 100%;
+    min-width: 1130px;
+    top: -5px;
+    display: flex;
+}
+
+.top-container {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.top-text-area {
+    width: 40%;
+    min-width: 400px;
+}
+
+.contact-info {
+    /* display: inline; */
+    border: solid 1px blue;
+    height: 100px;
+}
+
+.title {
+    position: relative;
+    /* margin: 0 auto; */
+    display: block;
+}
+
+
+.donation-section {
+    display: block;
+}
+
+.donation-text {
+    position: relative;
+    width: 300px;
+    display: block;
+    font-weight: bold;
+}
+
+.donate-button {
+    background-color: #00b900;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+
+.top-img-area {
+    min-height: 550px;
+    min-width: 730px;
+    width: 60%;
+}
+
+.feed-our-frontline-section {
+    position: relative;
+    width: 100%;
+    min-width: 1130px;
+    margin-top: -5px;
+    display: flex;
+}
+
+.frontline-img {
+    width: 40%;
+    min-width: 400px;
+}
+
+.frontline-text-area {
+    min-width: 730px;
+    width: 60%;
+    text-align: center;
+}
+
+.frontline-container {
+    position: relative;
+    top: auto;
+    width: 300px;
+    margin: auto;
+}
+
+.donation-form-section {
+    position: relative;
+    width: 100%;
+    min-width: 1130px;
+    min-height: 400px;
+    padding-top: 30px;
+    background-color: #60a1a3;
+}
+
+.nhs-form-section {
+    position: relative;
+    width: 100%;
+    min-width: 1130px;
+    min-height: 400px;
+    padding-top: 30px;
+}
+
+.form-container {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.form-left {
+    width: 66%;
+    min-width: 730px;
+}
+
+form {
+    display: flex;
+    max-height: 220px;
+}
+
+label {
+    font-family: verdana;
+    font-size: 13px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin: 4px 0 8px 0;
+}
+
+textarea {
+    width: 90%;
+    padding: 5px;
+    margin: 4px 0 8px 0;
+}
+
+.form-col1 {
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+.form-col2 {
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+
+.donation-label {
+    color: white;
+}
+
+.nhs-label {
+    color: grey;
+}
+
+.address, .message {
+    height: 75px;
+}
+
+.nhs-message {
+    height: 190px;
+}
+
+.form-submit-button {
+    width: -webkit-fill-available;
+    height: 50px;
+    background-color: #ffffff00;
+    border: none;
+    font-family: verdana;
+    font-size: 25px;
+}
+.donation-button{
+    color: #315455;
+}
+.donation-button:hover {
+    color: white;
+    font-weight: bold;
+}
+.nhs-button {
+    color: grey;
+}
+.nhs-button:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.form-right {
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.doantion-form-image {
+    border-radius: 50%;
+    max-width: 85%;
+
+}
+
+.nhs-form-image {
+    border-radius: 50%;
+    max-width: 85%;
+}
+
+.carousel-section {
+    position: relative;
+    min-width: 930px;
+    min-height: 400px;
+    border-top: solid 1px grey;
+    margin: 20px 50px;
+}
+
+.carousel-header {
+    font-weight: lighter;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+.carousel-container {
+    height: 300px;
+}
+
+.follow-button-container {
+    width: 100%;
+    text-align: center;
+}
+.follow-button {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff00;
+    border: solid 1px #60a1a3;
+    font-weight: bold;
+    font-size: 20px;
+    color: #60a1a3;
+    margin: auto;
+}
+.follow-button:hover {
+    background-color: #60a1a3;
+    color: white;
+}
+
+.footer {
+    background-color: #60a1a3;
+    height: 80px;
+    padding: 60px 10px 0px 100px;
+    display: flex;
+}
+.footer-info {
+    color: white;
+}
+
+.footer-icons {
+    height: 40px;
+    width: 200px;
+    margin-left: 350px;
+    border: solid 1px blue;
+}
