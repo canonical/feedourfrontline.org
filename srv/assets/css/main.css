@@ -26,6 +26,9 @@ h1 {
 .top-text-area {
     width: 40%;
     min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-info {
@@ -82,7 +85,9 @@ h1 {
 .frontline-text-area {
     min-width: 730px;
     width: 60%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frontline-container {
@@ -193,7 +198,9 @@ textarea {
     width: 33%;
     position: relative;
     overflow: hidden;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doantion-form-image {
