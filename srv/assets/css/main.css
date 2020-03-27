@@ -93,8 +93,9 @@ h1 {
 .frontline-container {
     position: relative;
     top: auto;
-    width: 300px;
+    width: 40%;
     margin: auto;
+    border: solid 1px blue;
 }
 
 .donation-form-section {
