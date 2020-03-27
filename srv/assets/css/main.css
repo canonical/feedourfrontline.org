@@ -32,15 +32,29 @@ h1 {
 }
 
 .contact-info {
-    /* display: inline; */
-    border: solid 1px blue;
-    height: 100px;
+    height: 50px;
+}
+.fb-icon, .insta-icon, .twitter-icon {
+    height: 30pt;
+    width: 30pt;
+    fill: #60a1a3;
+    margin-right: 8px;
+}
+
+.contact-email-text {
+    color: #60a1a3;
+    font-family: verdana;
+    font-size: 25px;
 }
 
 .title {
     position: relative;
     /* margin: 0 auto; */
     display: block;
+}
+
+.title-image {
+    width: 100%;
 }
 
 
@@ -252,19 +266,26 @@ textarea {
 }
 
 .footer {
+    min-width: 1020px;
     background-color: #60a1a3;
     height: 80px;
-    padding: 60px 10px 0px 100px;
+    padding: 60px 40px 0px 100px;
     display: flex;
+    justify-content: space-between;
 }
 .footer-info {
     color: white;
 }
 
-.footer-icons {
-    position: relative;
-    left: 50%;
-    height: 40px;
-    width: 200px;
-    border: solid 1px blue;
+.footer-fb-icon, .footer-insta-icon, .footer-twitter-icon {
+    height: 30pt;
+    width: 30pt;
+    fill: white;
+    margin-right: 8px;
+}
+
+.footer-contact-email-text {
+    color: white;
+    font-family: verdana;
+    font-size: 25px;
 }
