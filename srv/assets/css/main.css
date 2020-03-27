@@ -93,7 +93,7 @@ h1 {
 .frontline-container {
     position: relative;
     top: auto;
-    width: 300px;
+    width: 40%;
     margin: auto;
 }
 
@@ -262,8 +262,9 @@ textarea {
 }
 
 .footer-icons {
+    position: relative;
+    left: 50%;
     height: 40px;
     width: 200px;
-    margin-left: 350px;
     border: solid 1px blue;
 }
